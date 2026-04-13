@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEDS Lab -Ashesi University</title>
+  <meta name="description" content="Laboratory of Electrical Drives Technology at LUT University focuses on electromechanical energy conversion applications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+       
+  <nav class="nav"> 
+    <div class="container-wide nav__inner">
+      <!-- Logo -->
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo_draft.png" alt="Insert Logo">
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="nav__desktop">
+
+         <!-- For companies -->
+        <div class="nav__item">
+         <button class="nav__item-btn">
+            <a href="index.html">About</a>
+            <!-- <svg class="nav__chevron" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> -->
+          </button>
+        </div>
+
+        <!-- News -->
+        <div class="nav__item">
+          <button class="nav__item-btn">
+            <a href="news.html">News</a>
+            <!-- <svg class="nav__chevron" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> -->
+          </button>
+        </div>
+        <!-- Research -->
+        <div class="nav__item">
+          <button class="nav__item-btn">
+            <a href="research.html">Research</a>
+            <svg class="nav__chevron" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </button>
+          <div class="nav__dropdown">
+            <a href="research.html">Projects</a>
+            <a href="publications.html">Publications</a>
+          </div>
+        </div>
+        <!-- People -->
+        <div class="nav__item">
+          <button class="nav__item-btn">
+            <a href="people.html">PEDS Group</a>
+            <svg class="nav__chevron" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </button>
+          <div class="nav__dropdown">
+            <a href="senior-members.html">Member Profiles</a>
+          </div> 
+        </div>
+       
+        <!-- About us -->
+        <div class="nav__item">
+          <button class="nav__item-btn">
+            <a href="contact.html">Contact us</a>
+          </button>
+        </div>
+        </div>
+
+        
+
+      <!-- Mobile hamburger -->
+      <button class="nav__mobile-btn" id="open-menu" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu__header">
+      <div class="mobile-menu__logo"><img src="images/logo_draft.png" alt="LUT University"></div>
+      <button class="mobile-menu__close" id="close-menu" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu__body">
+      <!-- News -->
+      <div class="mobile-menu__section">
+           <a href="index.html"><button class="mobile-menu__toggle">About</button></a>
+        </a>
+      </div>
+      <!-- Research -->
+      <div class="mobile-menu__section">
+         <a href="news.html"><button class="mobile-menu__toggle">News</button></a>
+      </div>
+      <!-- Studies -->
+      <div class="mobile-menu__section">
+        <button class="mobile-menu__toggle">Research<svg class="chevron" viewBox="0 0 12 12" fill="none" width="16" height="16"><path d="M3 5l3 3 3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="mobile-menu__submenu"><a href="research.html">Project</a><a href="master-programs.html">Publications</a></div>
+      </div>
+      <!-- For companies -->
+      <div class="mobile-menu__section">
+        <button class="mobile-menu__toggle">People<svg class="chevron" viewBox="0 0 12 12" fill="none" width="16" height="16"><path d="M3 5l3 3 3-3" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <div class="mobile-menu__submenu"><a href="#">Members</a></div>
+      </div>
+      <!-- About us -->
+      <div class="mobile-menu__section">
+        <a href="contact.html"><button class="mobile-menu__toggle">Contact</button></a>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero">
+    <div class="hero__image-wrapper">
+      <img src="images/hero-banner.webp" alt="PEDS LAB">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <div class="container hero__inner">
+          <!-- Breadcrumb -->
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="#">Ashesi University</a><span class="breadcrumb__sep">&gt;</span>
+            <span class="breadcrumb__current">Power Energy and Drives System Lab</span>
+          </nav>
+          <h1 class="hero__title">PEDS Lab</h1>
+        </div>
+      </div>
+    </div>
+    <!-- School tag -->
+    
+  </section>
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Intro -->
+      <section class="intro">
+        <p>The Research focus of the PEDS Group revolves around creating cost effective, efficient, and high performing portable Power Electronics platforms for Renewable Energy System monitoring and diagnostics, industrial drive controls and automation of agricultural and health system processes. </p>
+        <!-- <p>In the future, our energy systems will rely more on renewables and hydrogen as an energy carrier, and transportation will be increasingly electrified. Electrical drives are the key enabling technology for all of these developments.</p> -->
+      </section>
+
+      <!-- Accordion Sections -->
+      <div class="accordion">
+
+        <!-- Key Research Fields -->
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span class="accordion__title">Key research fields</span>
+            <span class="accordion__icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5.5l4 4 4-4" stroke="#b52c2c" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="accordion__panel">
+            <div class="accordion__panel-inner">
+              <div class="research-block">
+                <h3>Power Electronics: DC-DC Converters, DC-AC Inverters </h3>
+                <p>Grid integration and control of inverter-based RE systems</p>
+                <p>Design and analysis of converters for RE generation and grid connection</p>
+                <p>Development of passive filter topologies to improve power quality for grid injection</p>
+              </div>
+              <div class="research-block">
+                <h3>Renewable Energy and Energy Storage Technologies</h3>
+                <p>Photovoltaic (PV) systems and Impedance Spectroscopy (IS)</p> 
+                <p>PV cell characterization, monitoring and diagnostics</p> 
+                <p>Smart grid and optimization</p>  
+                <p>Wind Energy Conversion Systems (WECS) </p>
+                <p>Batteries, Fuel cells and Hydrogen energy</p>
+                <p>Performance, degradation and condition monitoring </p>
+              </div>
+
+              <div class="research-block">
+                <h3>Electrical Machines and Drives</h3>
+                <p>Energy efficiency improvements </p> 
+                <p>Condition monitoring </p> 
+                <p>Transportation electrification, EV Vehicles, Aircraft Propulsions</p>  
+                <p>Industrial control and automation</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Topics -->
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span class="accordion__title">Research topics</span>
+            <span class="accordion__icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5.5l4 4 4-4" stroke="#b52c2c" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="accordion__panel">
+            <div class="accordion__panel-inner">
+              <ul class="bullet-list">
+                <li><span class="bullet-dot"></span>Design of an Interleaved Boost Converter (IBC) with current sharing control mechanism for Solar PV applications</li>
+                <li><span class="bullet-dot"></span>Online Characterization of Solar PV panels using DC-DC power converters</li>
+                <li><span class="bullet-dot"></span>PV-powered fine sand solar geyser for domestic hot water</li>
+                <li><span class="bullet-dot"></span>Condition Monitoring of Three Phase Induction Motors Using Impedance Spectroscopy Measurement Data </li>
+                <li><span class="bullet-dot"></span>Condition Monitoring of an Induction Motor-Drive System Using Impedance Spectroscopy Measurement Data </li>
+                <li><span class="bullet-dot"></span>Output Impedance measurements of DC-DC power converters for Control-Loop  Stability Studies </li>
+               </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Environments -->
+        <!-- <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span class="accordion__title">Research environments</span>
+            <span class="accordion__icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5.5l4 4 4-4" stroke="#00854a" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="accordion__panel">
+            <div class="accordion__panel-inner">
+              <ul class="bullet-list">
+                <li><span class="bullet-dot"></span>High-speed drive testing up to 2 MW / 16,000 rpm at low voltage</li>
+                <li><span class="bullet-dot"></span>Efficiency measurements using calorimetric methods</li>
+                <li><span class="bullet-dot"></span>New power electronics teaching lab</li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Contact Persons -->
+       
+
+        <!-- Related Projects -->
+        
+
+        <!-- Publications -->
+        <!-- <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span class="accordion__title">Publications</span>
+            <span class="accordion__icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5.5l4 4 4-4" stroke="#00854a" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="accordion__panel">
+            <div class="accordion__panel-inner">
+              <div class="publication">
+                <span class="publication__year">2026</span>
+                <div>
+                  <div class="publication__type">A4 Article in conference proceedings</div>
+                  <div class="publication__title"><a href="#">Impact of New Battery Plants Raw Material Transport on Local Infrastructure and Emissions in Southern Finland</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <div class="publication">
+                <span class="publication__year">2025</span>
+                <div>
+                  <div class="publication__type">A1 Journal article (refereed)</div>
+                  <div class="publication__title"><a href="#">Direct liquid cooling in compact machines: Advantages and limitations</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <div class="publication">
+                <span class="publication__year">2026</span>
+                <div>
+                  <div class="publication__type">A1 Journal article (refereed)</div>
+                  <div class="publication__title"><a href="#">Multiphysics Design Methodology for High-Speed Synchronous Reluctance Machines</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <div class="publication">
+                <span class="publication__year">2025</span>
+                <div>
+                  <div class="publication__type">A1 Journal article (refereed)</div>
+                  <div class="publication__title"><a href="#">Variable Reluctance Resolver with a Modular Stator: Main Design Aspects</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <div class="publication">
+                <span class="publication__year">2025</span>
+                <div>
+                  <div class="publication__type">A2 Review article</div>
+                  <div class="publication__title"><a href="#">Review on Silicon Carbide based High-Fundamental Frequency Inverters for High-Speed Drives</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <div class="publication">
+                <span class="publication__year">2025</span>
+                <div>
+                  <div class="publication__type">A1 Journal article (refereed)</div>
+                  <div class="publication__title"><a href="#">Advanced Direct Cooling Arrangements for Machines With Hairpin Windings</a></div>
+                  <div class="publication__school">LUT School of Energy Systems</div>
+                </div>
+              </div>
+              <a href="#" class="all-publications-link">
+                All publications
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- All Staff -->
+        <!-- <div class="accordion__item">
+          <button class="accordion__trigger">
+            <span class="accordion__title">Members</span>
+            <span class="accordion__icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5.5l4 4 4-4" stroke="#00854a" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </button>
+          <div class="accordion__panel">
+            <div class="accordion__panel-inner">
+              <div class="staff-filter">
+                <label for="staff-filter">Research area</label>
+                <select id="staff-filter">
+                  <option value="all">All areas</option>
+                  <option value="Electrical Engineering">Electrical Engineering</option>
+                </select>
+              </div>
+              <div class="staff-grid">
+                <a href="#" class="staff-card" data-area="Senior Researcher">
+                  <div class="staff-card__avatar"><img src="images/Awingot-Akparibo.webp" alt="Richard Awingot"></div>
+                  <div class="staff-card__info">
+                    <div class="staff-card__name">Richard Awingot</div>
+                    <div class="staff-card__role">Doctoral Researcher</div>
+                  </div>
+                </a>
+                <a href="#" class="staff-card" data-area="Junior Researcher">
+                  <div class="staff-card__avatar"><img src="images/bright-tetteh.jpg" alt="Bright Tetteh"></div>
+                  <div class="staff-card__info">
+                    <div class="staff-card__name">Bright Tetteh</div>
+                    <div class="staff-card__role">Doctoral Researcher</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div><!-- /.accordion -->
+    </div><!-- /.container -->
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <!-- Logo & social -->
+          <div>
+            <div class="footer__logo"><img src="images/ashesi-logo.png" alt="LUT University"></div>
+            <!-- <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="Facebook">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="Twitter">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z"/></svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 017.8 2m-.2 2A3.6 3.6 0 004 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5M12 7a5 5 0 110 10 5 5 0 010-10m0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="YouTube">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43zM9.75 15.02V8.48l5.75 3.27-5.75 3.27z"/></svg>
+              </a>
+            </div> -->
+          </div>
+          <!-- Study with us -->
+          <div class="footer__col">
+            <h3></h3>
+          
+          </div>
+
+           <div class="footer__col">
+            <h3></h3>
+          
+          </div>
+
+          
+
+          <!-- Research -->
+          <div class="footer__col">
+            <h3>Research</h3>
+            <ul>
+              <li><a href="research.html">Projects</a></li>
+              <li><a href="publications.html">Publications</a></li>
+            </ul>
+          </div>
+          <!-- About LUT -->
+          <div class="footer__col">
+            <h3>About PEDS LAB</h3>
+            <ul>
+              <li><a href="#">Campus</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <!-- Services -->
+         
+        </div>
+      </div>
+    </div>
+    <!-- Bottom bar -->
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <div class="footer__legal">
+          <a href="#">Privacy policy</a>
+          <a href="#">Accessibility statement</a>
+          <a href="#">Cookie settings</a>
+        </div>
+        <p class="footer__copyright"> PEDS LAB</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Modal -->
+  <div class="modal" id="search-modal">
+    <div class="modal__backdrop" id="search-modal-backdrop"></div>
+    <div class="modal__container">
+      <button class="modal__close" id="modal-close-search" aria-label="Close">&times;</button>
+      <div class="modal__body">
+        <div class="search-modal">
+          <h2>Search</h2>
+          <form class="search-form">
+            <input type="text" class="search-input" placeholder="Search for news, research, people..." aria-label="Search input">
+            <button type="submit" class="search-submit" aria-label="Submit search">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
