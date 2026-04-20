@@ -23,7 +23,7 @@ const NEWS_ARTICLES = {
     image: 'images/solar_geyser.jpeg',
     excerpt: '',
     fullContent: `
-      <p>The PEDS Lab has developed a project focused on the design, and implementation of a PV-integrated Fine Sand Geyser (PFSG) for domestic hot water production.</p>
+      <p>The PEDS Lab has developed a prototype focused on the design, and implementation of a PV-integrated Fine Sand Geyser (PFSG) for domestic hot water production.</p>
       <p>The system employs a direct coupling approach in which solar energy from a photovoltaic array is converted into heat through a nichrome resistive heating element, eliminating the need for inverters and battery storage. The generated thermal energy is stored in fine river-washed sand, which serves as a low-cost sensible thermal energy storage medium. Heat is subsequently transferred to water via a circular helical copper heat exchanger, enabling usable hot water output.</p>
             `
   },
