@@ -62,7 +62,7 @@ const NEWS_ARTICLES = {
     date: 'March 03, 2026',
     tag: 'Publication',
     tagClass: 'news-card__tag news-card__tag--publication',
-    image: 'images/solar_setup.jpeg',
+    image: 'images/solar_setup.jpg',
     excerpt: '',
     fullContent: `
       <h3>Abstract</h3>
