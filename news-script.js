@@ -32,7 +32,7 @@ const NEWS_ARTICLES = {
     date: 'March 03, 2026',
     tag: 'Publication',
     tagClass: 'news-card__tag news-card__tag--publication',
-    image: 'images/SSBI.png',
+    image: 'images/SSBI_2.png',
     excerpt: '',
     fullContent: `
       <h3>Abstract</h3>
