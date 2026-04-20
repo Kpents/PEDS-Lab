@@ -40,7 +40,7 @@ const NEWS_ARTICLES = {
       
       <p>However, due to increased power losses, high weight and cost in the two-stage topologies, single stage boost DC-AC power conversion has become an increased subject of research area. Although the single stage topologies have gained popularity for their compactness, high voltage gain and efficiency, it has not been extended to include online EIS diagnostic functionality for the PV device as done in the two stage DC-DC-AC topology. </p>
       <br>
-      <p>The full paper can be found <a href="https://ieeexplore.ieee.org/document/11419764">here</a></p>
+      <p>The full paper can be found <a href="https://ieeexplore.ieee.org/document/11419764" style="text-decoration: underline; color: blue;">here</a></p>
       <h3>Key Findings</h3>
       <p>The publication presents:</p>
       <ul>
