@@ -35,8 +35,8 @@ const NEWS_ARTICLES = {
     date: 'April 20, 2026',
     tag: 'Funding',
     tagClass: 'news-card__tag news-card__tag--funding',
-    image: 'images/hiecs.webp',
-    excerpt: 'A multi-institution consortium received funding to investigate converter reliability and lifetime extension methods for industrial applications.',
+    image: 'images/solar_geyser.jpeg',
+    excerpt: '',
     fullContent: `
       <p>Insert Overview</p>
       <h3>Key Features</h3>
