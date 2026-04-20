@@ -67,7 +67,8 @@ const NEWS_ARTICLES = {
     fullContent: `
       <h3>Abstract</h3>
       <p>Traditional online impedance spectroscopy measurements of solar PV cells are achieved through two-stage DC-DC-AC power conversion topologies where the input DC-DC boost converter stage is utilized for power regulation and injecting small signal AC perturbations for Electrochemical Impedance Spectroscopy (EIS) measurements. It is easily achieved because the DC-DC boost converter can be simply controlled by small signal linear models. </p>
-      
+
+      <br>
       <p>However, due to increased power losses, high weight and cost in the two-stage topologies, single stage boost DC-AC power conversion has become an increased subject of research area. Although the single stage topologies have gained popularity for their compactness, high voltage gain and efficiency, it has not been extended to include online EIS diagnostic functionality for the PV device as done in the two stage DC-DC-AC topology. </p>
 
       <p>The research was conducted by Dr. Awingot Richard Akparibo. The full paper is available through IEEE Xplore</p>
