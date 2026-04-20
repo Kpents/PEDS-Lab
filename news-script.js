@@ -27,7 +27,8 @@ const NEWS_ARTICLES = {
         <li> Full architecture designed, simulated, and prototyped </li>
         <li> MPPT tracking efficiency at 98.88% demonstrated in simulation </li>
         <li> Real-time dashboard operational for field monitoring </li>
-      </ul>    `
+      </ul>
+      `
   },
   consortium_grant: {
     title: 'Capstone Project: PV-powered fine sand solar geyser for domestic hot water',
@@ -53,7 +54,8 @@ const NEWS_ARTICLES = {
         <li> C </li>
         <li> D </li>
         <li> E </li>
-      </ul>   
+      </ul>
+      `
   },
   liquid_cooling: {
     title: 'New publication: Single Stage DC-AC Boost Inverter-Based Perturbation Technique for Online Impedance Spectroscopy Measurements of Photovoltaic Panels',
@@ -75,6 +77,7 @@ const NEWS_ARTICLES = {
         <li>Performance comparisons with traditional cooling methods</li>
         <li>Design guidelines for implementing direct liquid cooling</li>
       </ul>
+      `
   }
 };
 
