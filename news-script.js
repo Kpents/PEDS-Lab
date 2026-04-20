@@ -4,28 +4,29 @@
 
 const NEWS_ARTICLES = {
   test_rig: {
-    title: 'New test rig commissioned for high-speed motor experiments',
-    date: 'January 10, 2026',
+    title: 'Capstone Project: Online Characterization of Solar PV panels using DC-DC power converters',
+    date: 'April 20, 2026',
     tag: 'Lab news',
     tagClass: 'news-card__tag',
-    image: 'images/high-speed-machine.webp',
-    excerpt: 'A new low-voltage test rig capable of 2 MW and 16,000 rpm has been commissioned to support high-speed machine testing and prototype validation.',
+    image: 'images/pv_character.jpeg',
+    excerpt: 'TRACE (Tracking and Real-time Characterisation Engine) ',
     fullContent: `
-      <p>The Power Energy and Drives Systems Lab is excited to announce the commissioning of a state-of-the-art test rig designed specifically for high-speed motor experiments. This new facility represents a significant advancement in our research capabilities.</p>
-
+      <p>TRACE (Tracking and Real-time Characterisation Engine) is a hardware-software system that reconstructs solar PV I-V and P-V characteristic curves in real-time without disconnecting the load. It uses a controlled SEPIC DC-DC converter to emulate variable impedance at the panel output. Unlike offline methods that require system shutdown, TRACE performs full curve synthesis continuously in the field by utilising an architecture currently being deployed with MPPT controllers, enabling a device that can achieve both functions with minimal interruption.</p>
       <h3>Key Features</h3>
       <ul>
-        <li>2 MW power capacity for high-power testing</li>
-        <li>16,000 rpm maximum speed capability</li>
-        <li>Low-voltage design for enhanced safety</li>
-        <li>Advanced data acquisition and control systems</li>
-        <li>Integrated cooling and vibration monitoring</li>
+        <li>Reconstruct I–V and P–V curves with minimal interruption </li>
+        <li>Track Maximum Power Point via real-time control </li>
+        <li>Log performance data over time for trend analysis </li>
+        <li>Deliver real-time performance insights via dashboard</li>
       </ul>
 
-      <p>The test rig will enable our researchers to validate prototypes, conduct performance testing, and develop new methodologies for high-speed electrical machines. This investment underscores our commitment to advancing the field of electrical engineering and supporting industry partners in their innovation efforts.</p>
-
-      <p>The commissioning ceremony was attended by lab members, university leadership, and industry representatives. The facility is now operational and ready to support ongoing and future research projects.</p>
-    `
+      <h3>Key Findings</h3>
+      <ul>
+        <li>Impedance emulation validated in both simulation and hardware </li>
+        <li> I-V and P-V curves reconstructed with load connected </li>
+        <li> Full architecture designed, simulated, and prototyped </li>
+        <li> Full architecture designed, simulated, and prototyped</li>
+      </ul>    `
   },
   consortium_grant: {
     title: 'Research consortium grant awarded for converter reliability',
@@ -102,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="news-modal-image" src="${article.image}" alt="${article.title}">
         <div class="news-modal-meta">
           <time datetime="${article.date.replace(/\s/g, '-').toLowerCase()}">${article.date}</time>
-          <span class="${article.tagClass}">${article.tag}</span>
         </div>
         <h2 class="news-modal-title">${article.title}</h2>
       </div>
