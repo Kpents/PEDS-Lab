@@ -3,7 +3,7 @@
    ============================================================ */
 
 const NEWS_ARTICLES = {
-  test_rig: {
+  news_1: {
     title: 'Capstone Project: Online Characterization of Solar PV panels using DC-DC power converters',
     date: 'April 20, 2026',
     tag: 'Lab news',
@@ -30,7 +30,7 @@ const NEWS_ARTICLES = {
       </ul>
       `
   },
-  consortium_grant: {
+  news_2: {
     title: 'Capstone Project: PV-powered fine sand solar geyser for domestic hot water',
     date: 'April 20, 2026',
     tag: 'Funding',
@@ -57,7 +57,7 @@ const NEWS_ARTICLES = {
       </ul>
       `
   },
-  liquid_cooling: {
+  news_3: {
     title: 'New publication: Single Stage DC-AC Boost Inverter-Based Perturbation Technique for Online Impedance Spectroscopy Measurements of Photovoltaic Panels',
     date: 'March 03, 2026',
     tag: 'Publication',
