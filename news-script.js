@@ -38,22 +38,23 @@ const NEWS_ARTICLES = {
     image: 'images/solar_geyser.jpeg',
     excerpt: '',
     fullContent: `
-      <p>Insert Overview</p>
-      <h3>Key Features</h3>
+      <p>This project details the design, simulation, and hardware implementation of a PV integrated Fine sand Geyser (PFSG) for domestic hot water production. The system utilizes a direct coupling approach, where solar energy from a PV array is converted into heat via a nichrome resistive element without the need for inverters and batteries. This heat is stored in fine river washed sand, which serves as a low cost sensible thermal energy storage medium, and is later transferred to water through a circular helical copper heat exchanger. While the prototype successfully demonstrated the ability to to charge sand to high temperatures and provide usable hot water, significant overnight thermal losses were observed, this loss can be attributed two things the experiment was outdoor and I had no control over the ambient temperature it also highlighted the need for an enhanced insulation in future iterations.</p>
+      <h3>Objectives</h3>
       <ul>
-        <li>A </li>
-        <li>B </li>
-        <li>C </li>
-        <li>D </li>
+        <li>Directly Coupled Design: creating a PV - resistive heating system that operates without MPPT </li>
+        <li>Analyzing the electrical - thermal interaction between the PV output and the resistive load</li>
+        <li>Performance evaluation: Validating the system through both software simulations and physical experimentation.</li>
+        <li>Economic assessment: Evaluate the cost-effectiveness of the PFSG compared to conventional water heaters. </li>
       </ul>
 
       <h3>Key Findings</h3>
       <ul>
-        <li> A </li>
-        <li> B </li>
-        <li> C </li>
-        <li> D </li>
-        <li> E </li>
+        <li>The prototype successfully charged the sand bed to temperatures exceeding 300 degrees Celsius during peak sun hours</li>
+        <li>The system delivered usable hot water with outlet temperatures reaching up to 65 degrees Celsius</li>
+        <li>Thermal extraction efficiencies by a 2 L of water  were measured in the range of 23% to 50%, indicating moderate heat transfer performance.</li>
+        <li>Simulations showed that outlet water temperature is strongly influenced by water flow rates and the pitch of the helical heat exchanger. A 30mm pitch and 0.5 L/min flow rate provided an optimal balance for domestic use. </li>
+        <li>Significant heat loss occured overnight, with sand temperatures dropping from approximately 200 degrees Celsius in the evening (5:30pm) to 50 degrees Celsius by the following morning (7am)</li>
+        <li>With an estimated fabrication cost of GHS 300, the system could save a typical household approximately GHS 360 per month in energy costs compared to a standard electric geyser</li>
       </ul>
       `
   },
