@@ -13,22 +13,6 @@ const NEWS_ARTICLES = {
     fullContent: `
       <p>The PEDS Lab has developed TRACE (Tracking and Real-time Characterisation Engine), an innovative hardware-software system designed to reconstruct solar PV I–V and P–V characteristic curves in real time—without disconnecting the load.</p>
       <p> Unlike conventional offline methods that require system shutdown, TRACE operates continuously in the field, ensuring uninterrupted performance monitoring. The system leverages a controlled SEPIC DC-DC converter to emulate variable impedance at the panel output, enabling full curve synthesis under normal operating conditions.</p>
-      // <h3>Key Features</h3>
-      // <ul>
-      //   <li>Reconstruct I–V and P–V curves with minimal interruption </li>
-      //   <li>Track Maximum Power Point via real-time control </li>
-      //   <li>Log performance data over time for trend analysis </li>
-      //   <li>Deliver real-time performance insights via dashboard</li>
-      // </ul>
-
-      // <h3>Key Findings</h3>
-      // <ul>
-      //   <li>Impedance emulation validated in both simulation and hardware </li>
-      //   <li> I-V and P-V curves reconstructed with load connected </li>
-      //   <li> Full architecture designed, simulated, and prototyped </li>
-      //   <li> MPPT tracking efficiency at 98.88% demonstrated in simulation </li>
-      //   <li> Real-time dashboard operational for field monitoring </li>
-      // </ul>
       `
   },
   news_2: {
@@ -41,24 +25,7 @@ const NEWS_ARTICLES = {
     fullContent: `
       <p>The PEDS Lab has developed a project focused on the design, and implementation of a PV-integrated Fine Sand Geyser (PFSG) for domestic hot water production.</p>
       <p>The system employs a direct coupling approach in which solar energy from a photovoltaic array is converted into heat through a nichrome resistive heating element, eliminating the need for inverters and battery storage. The generated thermal energy is stored in fine river-washed sand, which serves as a low-cost sensible thermal energy storage medium. Heat is subsequently transferred to water via a circular helical copper heat exchanger, enabling usable hot water output.</p>
-      // <h3>Objectives</h3>
-      // <ul>
-      //   <li>Directly Coupled Design: creating a PV - resistive heating system that operates without MPPT </li>
-      //   <li>Analyzing the electrical - thermal interaction between the PV output and the resistive load</li>
-      //   <li>Performance evaluation: Validating the system through both software simulations and physical experimentation.</li>
-      //   <li>Economic assessment: Evaluate the cost-effectiveness of the PFSG compared to conventional water heaters. </li>
-      // </ul>
-
-      // <h3>Key Findings</h3>
-      // <ul>
-      //   <li>The prototype successfully charged the sand bed to temperatures exceeding 300 degrees Celsius during peak sun hours</li>
-      //   <li>The system delivered usable hot water with outlet temperatures reaching up to 65 degrees Celsius</li>
-      //   <li>Thermal extraction efficiencies by a 2 L of water  were measured in the range of 23% to 50%, indicating moderate heat transfer performance.</li>
-      //   <li>Simulations showed that outlet water temperature is strongly influenced by water flow rates and the pitch of the helical heat exchanger. A 30mm pitch and 0.5 L/min flow rate provided an optimal balance for domestic use. </li>
-      //   <li>Significant heat loss occured overnight, with sand temperatures dropping from approximately 200 degrees Celsius in the evening (5:30pm) to 50 degrees Celsius by the following morning (7am)</li>
-      //   <li>With an estimated fabrication cost of GHS 300, the system could save a typical household approximately GHS 360 per month in energy costs compared to a standard electric geyser</li>
-      // </ul>
-      `
+            `
   },
   news_3: {
     title: 'New publication: Single Stage DC-AC Boost Inverter-Based Perturbation Technique for Online Impedance Spectroscopy Measurements of Photovoltaic Panels',
