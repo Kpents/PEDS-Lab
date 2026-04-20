@@ -30,46 +30,43 @@ const NEWS_ARTICLES = {
       </ul>    `
   },
   consortium_grant: {
-    title: 'Research consortium grant awarded for converter reliability',
-    date: 'November 5, 2025',
+    title: 'Capstone Project: PV-powered fine sand solar geyser for domestic hot water',
+    date: 'April 20, 2026',
     tag: 'Funding',
     tagClass: 'news-card__tag news-card__tag--funding',
     image: 'images/hiecs.webp',
     excerpt: 'A multi-institution consortium received funding to investigate converter reliability and lifetime extension methods for industrial applications.',
     fullContent: `
-      <p>The Power Energy and Drives Systems Lab, in collaboration with several European universities and industry partners, has been awarded a significant research grant to investigate converter reliability and develop lifetime extension methods for industrial applications.</p>
-
-      <h3>Project Overview</h3>
-      <p>This three-year project will focus on:</p>
+      <p>Insert Overview</p>
+      <h3>Key Features</h3>
       <ul>
-        <li>Advanced reliability modeling of power electronic converters</li>
-        <li>Development of predictive maintenance algorithms</li>
-        <li>Investigation of novel materials and cooling techniques</li>
-        <li>Field testing and validation in industrial environments</li>
+        <li>A </li>
+        <li>B </li>
+        <li>C </li>
+        <li>D </li>
       </ul>
 
-      <h3>Consortium Partners</h3>
-      <p>The project brings together expertise from:</p>
+      <h3>Key Findings</h3>
       <ul>
-        <li>Ashesi University (Lead)</li>
-        <li>Technical University of Denmark</li>
-        <li>RWTH Aachen University</li>
-        <li>Industry partners including ABB and Siemens</li>
-      </ul>
-
-      <p>This collaborative effort will address critical challenges in power electronics reliability, contributing to more sustainable and cost-effective industrial systems. The project is expected to begin in early 2026 with the first results anticipated within 18 months.</p>
-    `
+        <li> A </li>
+        <li> B </li>
+        <li> C </li>
+        <li> D </li>
+        <li> E </li>
+      </ul>   
   },
   liquid_cooling: {
-    title: 'New publication: Direct liquid cooling in compact machines',
-    date: 'June 20, 2025',
+    title: 'New publication: Single Stage DC-AC Boost Inverter-Based Perturbation Technique for Online Impedance Spectroscopy Measurements of Photovoltaic Panels',
+    date: 'March 03, 2026',
     tag: 'Publication',
     tagClass: 'news-card__tag news-card__tag--publication',
     image: 'images/summer-image.webp',
-    excerpt: 'A new journal article covering direct liquid cooling arrangements for compact machines has been published.',
+    excerpt: '',
     fullContent: `
-      <p>Researchers from the Power Energy and Drives Systems Lab have published a comprehensive study on direct liquid cooling techniques for compact electrical machines in the IEEE Transactions on Industry Applications.</p>
+      <h3>Abstract</h3>
+      <p>Traditional online impedance spectroscopy measurements of solar PV cells are achieved through two-stage DC-DC-AC power conversion topologies where the input DC-DC boost converter stage is utilized for power regulation and injecting small signal AC perturbations for Electrochemical Impedance Spectroscopy (EIS) measurements. It is easily achieved because the DC-DC boost converter can be simply controlled by small signal linear models. However, due to increased power losses, high weight and cost in the two-stage topologies, single stage boost DC-AC power conversion has become an increased subject of research area. Although the single stage topologies have gained popularity for their compactness, high voltage gain and efficiency, it has not been extended to include online EIS diagnostic functionality for the PV device as done in the two stage DC-DC-AC topology. </p>
 
+      <p>The research was conducted by Dr. Awingot Richard Akparibo. The full paper is available through IEEE Xplore</p>
       <h3>Key Findings</h3>
       <p>The publication presents:</p>
       <ul>
@@ -78,14 +75,6 @@ const NEWS_ARTICLES = {
         <li>Performance comparisons with traditional cooling methods</li>
         <li>Design guidelines for implementing direct liquid cooling</li>
       </ul>
-
-      <h3>Abstract</h3>
-      <p>"Direct liquid cooling of electrical machines offers significant advantages in terms of power density and efficiency. This paper investigates various cooling channel configurations and presents experimental results demonstrating up to 40% improvement in thermal performance compared to conventional air cooling methods."</p>
-
-      <p>The research was conducted by Dr. Richard Awingot and his team, with contributions from industry collaborators. The full paper is available through IEEE Xplore and has already received attention from the international research community.</p>
-
-      <p>This work contributes to the development of more compact and efficient electrical machines, which are essential for applications ranging from electric vehicles to renewable energy systems.</p>
-    `
   }
 };
 
