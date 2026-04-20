@@ -16,7 +16,7 @@ const NEWS_ARTICLES = {
       `
   },
   news_2: {
-    title: 'Capstone Project Demonstrates PV-Powered Sand-Based Solar Geyser for Low-Cost Domestic Hot Water',
+    title: 'PEDS Lab Develops PV-Powered Fine Sand Solar Geyser for Low-Cost Domestic Hot Water Production',
     date: 'April 20, 2026',
     tag: 'Funding',
     tagClass: 'news-card__tag news-card__tag--funding',
