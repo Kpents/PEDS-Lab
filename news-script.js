@@ -25,7 +25,8 @@ const NEWS_ARTICLES = {
         <li>Impedance emulation validated in both simulation and hardware </li>
         <li> I-V and P-V curves reconstructed with load connected </li>
         <li> Full architecture designed, simulated, and prototyped </li>
-        <li> Full architecture designed, simulated, and prototyped</li>
+        <li> MPPT tracking efficiency at 98.88% demonstrated in simulation </li>
+        <li> Real-time dashboard operational for field monitoring </li>
       </ul>    `
   },
   consortium_grant: {
